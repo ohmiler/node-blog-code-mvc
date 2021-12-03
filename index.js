@@ -26,7 +26,7 @@ const fileUpload = require('express-fileupload');
 // Validation Middleware
 
 
-mongoose.connect('mongodb+srv://milerdev:1234@cluster0.cggo4.mongodb.net/my_database', { useNewUrlParser: true });
+mongoose.connect('your-mongodb-uri', { useNewUrlParser: true });
 
 app.set('view engine', 'ejs');
 
